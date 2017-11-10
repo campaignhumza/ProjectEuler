@@ -13,17 +13,18 @@ namespace ProjectEuler
 		{
 			long max = 0;
 			long res = scaryNum;
-			while (res != 1)
-			{
-				for (long i = 2; i < res; i++)
+				for (long i = 2; i <= res; i++)
 				{
-					if (IsPrime(i) && (res % i == 0))
+					if (res <= 1)
+					{
+						break;
+					}
+					if ((res % i == 0) && IsPrime(i))
 					{
 						max = i;
 						res = res / i;
 					}
 				}
-			}
 			return max;
 		}
 
