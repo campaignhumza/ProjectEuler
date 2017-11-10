@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ProjectEuler
 {
@@ -10,7 +6,7 @@ namespace ProjectEuler
 	{
 		static void Main(string[] args)
 		{
-			Console.WriteLine(BiggestPrimeFactorOfThatBigScaryNumberEuler.BiggestPrimeFactorOfThatBigScaryNumber(600851475143));
+			Console.WriteLine(LargestPalindromeOf3DigitMultiplicationEuler.IsPalindrome(1234321));
 			Console.ReadKey();
 		}
 

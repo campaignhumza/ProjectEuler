@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="EvenSummedFibsToNEuler.cs" />
     <Compile Include="BiggestPrimeFactorOfThatBigScaryNumberEuler.cs" />
+    <Compile Include="LargestPalindromeOf3DigitMultiplicationEuler.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
