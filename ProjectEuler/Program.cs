@@ -10,7 +10,7 @@ namespace ProjectEuler
 	{
 		static void Main(string[] args)
 		{
-			Console.WriteLine();
+			Console.WriteLine(BiggestPrimeFactorOfThatBigScaryNumberEuler.BiggestPrimeFactorOfThatBigScaryNumber(600851475143));
 			Console.ReadKey();
 		}
 

@@ -6,16 +6,16 @@ using System.Threading.Tasks;
 
 namespace ProjectEuler
 {
-	static class EvenSummedFibsTo4MillionEuler
+	static class EvenSummedFibsToNEuler
 	{
 
-		public static long EvenSummedFibsTo4Million()
+		public static long EvenSummedFibsToN(int n)
 		{
 			long sum = 0;
 			long prevprev = 0;
 			long prev = 1;
 			long next;
-			while (prevprev < 4000000)
+			while (prevprev < n)
 			{
 				next = prevprev + prev;
 				if (next % 2 == 0)

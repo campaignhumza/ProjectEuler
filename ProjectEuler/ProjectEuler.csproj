@@ -43,7 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="EvenSummedFibsTo4MillionEuler.cs" />
+    <Compile Include="EvenSummedFibsToNEuler.cs" />
+    <Compile Include="BiggestPrimeFactorOfThatBigScaryNumberEuler.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
